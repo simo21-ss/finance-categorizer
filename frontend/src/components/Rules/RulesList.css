@@ -113,14 +113,7 @@
   flex-shrink: 0;
 }
 
-.rulesTable__col--priority.rulesTable__col--sortable,
-.rulesTable__col--field.rulesTable__col--sortable,
-.rulesTable__col--type.rulesTable__col--sortable {
-  justify-content: center;
-}
-
 .rulesTable__col--priority {
-  text-align: center;
   grid-column: 1;
 }
 
@@ -129,7 +122,6 @@
 }
 
 .rulesTable__col--field {
-  text-align: center;
   grid-column: 3;
 }
 
@@ -142,15 +134,12 @@
 }
 
 .rulesTable__col--type {
-  text-align: center;
   grid-column: 6;
 }
 
 .rulesTable__col--actions {
-  text-align: right;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 4px;
 }
 
