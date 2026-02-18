@@ -35,32 +35,13 @@ The frontend will run on `http://localhost:5173`
 1. Start the backend server first (it runs on port 5001)
 2. Start the frontend dev server (it runs on port 5173)
 3. Open your browser to `http://localhost:5173`
-4. Test the API connection using the "Test API Connection" button
 
 ## Features (MVP)
 
 - ✅ Basic project structure
 - ✅ API health check endpoint
 - ✅ Simple home page
-- 🚧 Import transactions (CSV/JSON)
-- 🚧 Manage categorization rules
-- 🚧 Auto-categorize transactions
-- 🚧 Monthly summary and breakdown
-
-## Project Structure
-
-```
-finance-categorizer/
-├── backend/              # Express API server
-│   ├── src/
-│   │   └── server.js    # Main server file
-│   ├── .env             # Environment variables
-│   └── package.json
-├── frontend/             # React application
-│   ├── src/
-│   │   ├── api/         # API client functions
-│   │   ├── App.jsx      # Main app component
-│   │   └── main.jsx     # Entry point
-│   └── package.json
-└── README.md
-```
+- ✅ Import transactions (CSV/JSON)
+- ✅ Manage categorization rules
+- ✅ Auto-categorize transactions
+- ✅ Monthly summary and breakdown
