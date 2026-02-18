@@ -1,7 +1,7 @@
 {
-  "name": "finance-categorizer-e2e",
+  "name": "spendly-e2e",
   "version": "1.0.0",
-  "description": "End-to-end tests for Finance Categorizer",
+  "description": "End-to-end tests for Spendly",
   "private": true,
   "scripts": {
     "test": "playwright test",

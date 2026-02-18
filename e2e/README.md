@@ -1,10 +1,10 @@
-# Finance Categorizer E2E Tests
+# Spendly E2E Tests
 
-End-to-end tests for the Finance Categorizer application using Playwright.
+End-to-end tests for the Spendly application using Playwright.
 
 ## Overview
 
-This test suite provides comprehensive e2e testing for the Finance Categorizer application, covering:
+This test suite provides comprehensive e2e testing for the Spendly application, covering:
 
 1. **Import and Categorize** - Import transactions from CSV files and assign categories
 2. **Rules CRUD** - Create, edit, toggle visibility (active/inactive), and delete categorization rules
@@ -317,4 +317,4 @@ For issues or questions:
 
 ## License
 
-This test suite is part of the Finance Categorizer project.
+This test suite is part of the Spendly project.
